@@ -1,16 +1,6 @@
-# AWSLambda_ProductScraperService
-## AWS Lambda implementation of a Product Scraper Service.
-
-This is an implementation of a product scraper service on AWS Lambda using nodejs.
-The service accepts the Url of the item as an input and return the title, price and an array of images.
-
-
-# Important deployment clues:
-
 AWS Lambda function need to be configured with memory of 512M
 
-# sample request
-## please not the service url will be different for your deployed version.
+sample request
 
 post
 url: https://rlyf1qqxy7.execute-api.us-east-2.amazonaws.com/dev
@@ -19,7 +9,7 @@ body:
     "url": "https://www.amazon.com/dp/B07RPS6CGP/ref=dp_cerb_2"
 }
 
-# sample response
+sample response
 
 {
     "statusCode": 200,
